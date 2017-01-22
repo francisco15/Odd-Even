@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mision Pares e Impares</title>
+	</head>
+
+	<body>
+		<h1>Pares e Impares</h1>
+
+		<% num = 1%>
+		<% while num < 51 %>
+			<% if num % 2 == 0 %>
+				<p> <%= num %> Soy Par!</p>
+			<% else %>
+				<p> <%= num %> Soy Impar!</p>
+			<% end%>
+			<% num += 1%>
+		<% end%>
+	</body>
+</html>
